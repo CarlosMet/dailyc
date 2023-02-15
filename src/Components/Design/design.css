@@ -1,0 +1,14 @@
+.color-pick{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border: none;    
+    background-color: transparent;
+}
+
+.green-float{
+    background-color: rgba(243, 251, 237, 0.7);
+}
+.deg12{
+    transform: rotate(12deg);
+}

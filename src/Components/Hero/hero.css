@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@900&display=swap');
+:root{
+  --first-degree-color:#fddee9;
+  --second-degree-color:#d7f0f3;
+}
+.hero{
+  background-image: linear-gradient(to bottom right, var(--first-degree-color), var(--second-degree-color));
+  min-height: calc(100vh - 68px);
+}
+
+span {
+    transition: all 0.5s ease-in-out;
+  }
+  
+  .Css-enter {
+    opacity: 0;
+  }  
+  .Tailwind-enter {
+    opacity: 0;
+  }  
+  .JavaScript-enter {
+    opacity: 0;
+  }
+  .Bootstrap-enter{
+    opacity: 0;
+  }
+
+  h1{
+    font-family: 'Inter', sans-serif;
+  }
+
+  .hero-img{
+    position: relative;
+    z-index: 1;
+  }
+
+  .absolute-svg{
+    position: absolute;
+    /* top: 170px;
+    left: -140px;  */
+    z-index: -1;   
+  }
+  .absolute-svg img{
+    width: 37%;
+  }
+
+  

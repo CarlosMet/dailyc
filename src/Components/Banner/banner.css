@@ -1,0 +1,9 @@
+.banner{
+    position: relative;
+    background-image: linear-gradient(to right,#FBAB7E,#F7CE68);
+}
+.circle-container{    
+    position: absolute;
+    top: -200px;
+    right: -120px;
+}

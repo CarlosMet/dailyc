@@ -36,7 +36,7 @@ const Design = () => {
     setColor(e.target.value)
   }
   return (
-    <div className='min-h-[100vh] lg:py-12 relative'>
+    <div className='min-h-[100vh] lg:py-12 relative max-w-[100vw] overflow-hidden'>
       <div className='green-float absolute  w-40 h-40 rotate-12 left-36 top-28 -z-10'></div>
       <div className='-rotate-12 -z-10 absolute right-52 top-[550px]'><Spin><div className='green-float absolute  w-52 h-52  -z-10'></div></Spin></div>
       <div className='float-container absolute bg-[#f3f3f3] w-28 h-28 rotate-12 left-80 bottom-64 -z-10'></div>

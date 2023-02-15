@@ -47,7 +47,7 @@ const Design = () => {
       <div className='rotate-12 left-[700px] top-52 -z-10 absolute'><Spin duration={700}><div className='float-container bg-[#b9f9da] w-20 h-20 -rotate-45 '></div></Spin></div>
       <div className='-rotate-12 -z-10'><Spin duration={1500} delay={550}><div className='absolute w-32 h-32 border border-slate-300 border-dashed -z-10'></div></Spin></div>
       <div className='absolute bottom-24 right-52 -rotate-6 -z-10'>
-        <Spin duration={1500} delay={550}><div className='w-32 h-32 -rotate-12 border border-slate-300 border-dashed -z-10 '>
+        <Spin duration={1500} delay={550}><div className='w-32 h-32 -rotate-12 border border-slate-300 border-dashed -z-10 absolute '>
           </div>
         </Spin>
       </div>

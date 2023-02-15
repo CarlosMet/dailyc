@@ -1,5 +1,7 @@
 import React, {useRef, useState,useEffect} from 'react'
 import './hero.css'
+import heroImg from '../../images/cryptoframe-removebg-preview.png'
+import heroSvg from '../../images/undraw_working_re_ddwy.svg'
 
 const Hero = () => {    
 
@@ -51,9 +53,9 @@ const Hero = () => {
             <button className='bg-purple-500 px-20 text-xl text-white font-semibold mt-4 rounded-3xl py-2 lg:mt-6 xl:mt-10 2xl:mt-12'>Get started</button>
         </div>        
         <div className='hero-img lg:mt-12'>
-            <img src="../../src/images/cryptoframe-removebg-preview.png" alt="" />
+            <img src={heroImg} alt="" />
             <div className='hidden lg:block absolute-svg lg:top-40 lg:left-[-155px] 2xl:left-[-215px] 2xl:top-48'>
-                <img src="../../src/images/undraw_working_re_ddwy.svg" alt="" />
+                <img src={heroSvg} alt="" />
             </div>
         </div>
         

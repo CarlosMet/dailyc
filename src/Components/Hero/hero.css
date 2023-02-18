@@ -5,7 +5,7 @@
 }
 .hero{
   background-image: linear-gradient(to bottom right, var(--first-degree-color), var(--second-degree-color));
-  min-height: calc(100vh - 68px);
+  min-height: calc(100vh - 32px);
 }
 
 span {
@@ -43,5 +43,11 @@ span {
   .absolute-svg img{
     width: 37%;
   }
-
+  .hero-flex-1{
+    flex: 0.5;
+  }
+  .hero-flex-2{
+    flex: 0.5;
+  }
+  
   

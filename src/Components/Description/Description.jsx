@@ -4,7 +4,7 @@ import Fade from 'react-reveal/Fade'
 
 const Description = () => {
   return (
-    <div className='description py-6 lg:pt-16 xl:pt-24 2xl:pt-28'>
+    <div className='description px-4 lg:px-0 py-6 lg:pt-16 xl:pt-24 2xl:pt-28'>
         <Fade duration={2000} left>
             <h2 className='text-2xl xl:text-4xl 2xl:text-5xl text-center tracking-tight max-w-6xl mx-auto text-slate-800'>Save time and build awesome apps with our modern components.</h2></Fade>
         <Fade duration={2000} right>

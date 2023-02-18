@@ -1,0 +1,20 @@
+.first-span, .second-span, .third-span{
+    transition: 0.3s ease-in-out;
+}
+.nav-option{
+    position: relative;
+    transition: 0.6s;
+}
+.nav-option::after{
+    content: "";
+    width: 0;
+    position: absolute;
+    height: 2px;
+    bottom: -1px;
+    left: 0;
+    background-color: #c084fc;
+    transition: 0.6s;
+}
+.nav-option:hover::after{
+    width: 100%;
+}

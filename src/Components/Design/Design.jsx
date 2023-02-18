@@ -55,6 +55,7 @@ const Design = () => {
       
         <div className='px-8 lg:px-32 2xl:px-52'>
             <h2 className='text-2xl xl:text-4xl 2xl:text-5xl tracking-tight max-w-6xl text-slate-800'>Edit your component.</h2>
+            <p className='text-[#17E581] font-medium mt-2'>Customizable</p>
             <p className='mt-4 lg:mt-8 lg:max-w-xl 2xl:max-w-3xl text-slate-500 text-lg'>We know each project is unique and different, that's why we give you the option to edit some elements like colors, shadows, spacing and sizing, let your imagination soar and let's create amazing things together.</p>
         
         <div className='flex flex-col lg:px-6 lg:flex-row items-center justify-between lg:max-w-[900px] 2xl:max-w-[1100px] mx-auto mt-10 lg:mt-16 2xl:mt-28'>

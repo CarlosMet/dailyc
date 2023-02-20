@@ -47,9 +47,9 @@ const Hero = () => {
   }, [text]);
 
   return (
-    <div className='hero xl:py-6 2xl:py-24'>
+    <div className='hero py-4 xl:py-6 2xl:py-24'>
 
-        <div className='flex gap-8 flex-col items-center lg:flex-row lg:text-left lg:justify-between max-w-[330px] md:max-w[480px] lg:max-w-[910px] xl:max-w-[1100px] 2xl:max-w-[1450px] mx-auto'>
+        <div className='flex gap-12 lg:gap-8 flex-col items-center lg:flex-row lg:text-left lg:justify-between max-w-[330px] md:max-w[480px] lg:max-w-[910px] xl:max-w-[1100px] 2xl:max-w-[1450px] mx-auto'>
           <div className='hero-flex-1 mt-6 lg:mt-8 text-center lg:text-left xl:p-5'>
             <h1 className='titulo text-2xl lg:text-3xl xl:text-5xl tracking-tight text-slate-900'>Welcome to daily components.</h1>
             <p className='container1 text-lg lg:text-2xl font-semibold mt-2 lg:mt-4 text-slate-500'>We provide pre-built and pre-designed components for your apps, these components are built using <span className='text-purple-500 font-semibold fixed-width whitespace-nowrap'><span className={className}>{text}</span></span> </p>
